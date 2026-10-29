@@ -2,12 +2,18 @@
 class Zubi < Formula
   desc "Read and edit the Reminders, calendars and Notes a Mac running Zubi shares"
   homepage "https://fa-krug.github.io/zubi/"
-  version "0.1.1"
   license "MIT"
 
+  # Homebrew only allows a URL inside on_intel/on_arm; the one universal archive serves both.
   on_macos do
-    url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.1/zubi_0.1.1_darwin_universal.tar.gz"
-    sha256 "6efd9e9566176fb2b7e6322c17adf051c44ab72ad95206f2c14b67027fc03917"
+    on_intel do
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.1/zubi_0.1.1_darwin_universal.tar.gz"
+      sha256 "6efd9e9566176fb2b7e6322c17adf051c44ab72ad95206f2c14b67027fc03917"
+    end
+    on_arm do
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.1/zubi_0.1.1_darwin_universal.tar.gz"
+      sha256 "6efd9e9566176fb2b7e6322c17adf051c44ab72ad95206f2c14b67027fc03917"
+    end
   end
 
   on_linux do
