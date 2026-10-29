@@ -7,23 +7,23 @@ class Zubi < Formula
   # Homebrew only allows a URL inside on_intel/on_arm; the one universal archive serves both.
   on_macos do
     on_intel do
-      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_darwin_universal.tar.gz"
-      sha256 "e05ed1a3a687ea12fc0dcc9ae6c8d5e6c6c8a7db115368a2e144164586fd4547"
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_darwin_universal.tar.gz"
+      sha256 "7e22036d0aab54f32d75f66c1796318bc51ad41454d1c129610a95c32cfbaf0c"
     end
     on_arm do
-      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_darwin_universal.tar.gz"
-      sha256 "e05ed1a3a687ea12fc0dcc9ae6c8d5e6c6c8a7db115368a2e144164586fd4547"
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_darwin_universal.tar.gz"
+      sha256 "7e22036d0aab54f32d75f66c1796318bc51ad41454d1c129610a95c32cfbaf0c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_linux_amd64.tar.gz"
-      sha256 "7788cc081939242b17a5989d4fca4e5bb03737bdf50def944adf27f1601f686f"
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_linux_amd64.tar.gz"
+      sha256 "d4753f25620284189c2b2e135f0215506a15a1c3d06008d242c4105eabcc523f"
     end
     on_arm do
-      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_linux_arm64.tar.gz"
-      sha256 "3009a758cd89362a1a4b7fb510b94cabe9b3cf6bdd7b9febb0e8fc0f3bf210c6"
+      url "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_linux_arm64.tar.gz"
+      sha256 "f793e41ce30360257c4bc0b0f49dc201fec2603da20b8127df3355dbaf487b4f"
     end
   end
 
